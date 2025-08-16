@@ -1,27 +1,56 @@
+html {
+  background-color:rgb(180, 212, 212);
+}
+/* Top Text */
+h1 {
+  text-align: center;
+}
+h5 {
+  text-align: center;;
+}
 p {
   font-size: 200%;
   color: red;
+  text-align: center;
 }
 
-/* buttons */
-Button {
-  
+
+/* Spacers */
+.Spacer {
+  Width: 100%;
+  height: fit-content;  
+  background-color: white;
+  border: 2px solid black;
 }
-.CatIder {
+/* buttons */
+div {
+Button {
+  padding: 3%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+Button:hover {
+  background-color: lightblue;
+  color: black;
+}
+}
+.CatIder {  
     font-size: 150%;
     color: rgb(0, 0, 0);
     text-align: center;
     font-family: Arial, sans-serif;
   }
 
-.StrayCats {
+.Cats {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   text-align: center;
 }
 
-.StrayCatsButtons {
+.CatsButtons {
   flex-basis: 100%;
   margin: 1%;
 }
