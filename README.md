@@ -1,0 +1,1 @@
+Hello! This is the HTML, CSS, and image content for a simple website themed around my cats. It's meant to be an easy project to: Start off simple, let me make sure i'm doing everything right with github, and refresh what I know. Learning Github and VSCode was very difficult, but I think I've learned enough to where I won't screw up a major project.
